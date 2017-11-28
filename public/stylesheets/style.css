@@ -1,0 +1,29 @@
+*{box-sizing: border-box; margin: 0; padding: 0; outline: none;box-shadow: none}
+body {
+  font: 14px "微软雅黑 Light", Helvetica, Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+  text-decoration: none;
+}
+i{font-style:normal}
+input,textarea{font-family:"微软雅黑 Light";height:42px;width:100%;display:block;border-radius:4px;border:1px solid #2e2e2e;margin-bottom:14px;padding:10px;}
+button{height:30px;width:80px;text-align:center;color:#fff;background:#ffc520;border:1px solid #ffc520;border-radius:4px;cursor:pointer;}
+button:hover{color:#2e2e2e}
+.container{width:1200px;margin:0 auto;padding-top:20px;}
+
+.header{text-align: center;padding:30px 0;}
+
+/*.notes{display:inline-block;vertical-align:top;width:50%;}*/
+
+.notes .title{margin:10px 0;}
+.notes .add-p{text-align:right}
+textarea{height:100px;}
+
+.note-right{border-top:1px solid #2e2e2e;padding-top:50px;margin-top:50px;}
+.note-item{height:90px;border-bottom:1px solid #2e2e2e;padding:10px 0;}
+.note-item .item-title{font-size:16px;height:30px;line-height:30px;}
+.note-item .item-title button{float:right}
+.note-item .item-info{color:#2e2e2e;margin-top:10px;}
+.note-item .item-info i{float:right}
+
